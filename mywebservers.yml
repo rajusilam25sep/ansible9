@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: mywebserversvers
   become: yes
   tasks:
   - name: in this tasks , i want to install apache2 webservers on ubuntu
