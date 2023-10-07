@@ -6,7 +6,9 @@
     apt:
       name: apache2
       state: present
+    when: ansilbe_os_family== "Debian"
   - name: in this tasks, i want to start apache2 webservers on ubuntu
     service:
       name: apache2
       state: started
+    when: ansilbe_os_family== "Debian"
