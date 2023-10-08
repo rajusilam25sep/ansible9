@@ -16,3 +16,4 @@
     apt: 
       name: wget
       statee: present
+    ignore_errors: true
