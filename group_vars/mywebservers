@@ -4,3 +4,4 @@ mywebpackonubuntu: apache2
 mywebpackonredhat: httpd
 myjavaonubuntu: openjdk-11-jdk-headless
 myajvaonredhat: java-1.8.0-openjdk
+
